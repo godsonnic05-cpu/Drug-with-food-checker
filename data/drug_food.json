@@ -1,0 +1,60 @@
+[
+  {
+    "id": "iron_sulfate",
+    "name": "Iron (ferrous sulfate)",
+    "aliases": ["iron", "ferrous sulfate", "ferrous fumarate"],
+    "avoid_foods": [
+      {"item": "Tea / Coffee", "why": "Tannins inhibit iron absorption", "timing": "Avoid 1 hour before and 2 hours after"},
+      {"item": "Milk / Dairy", "why": "Calcium reduces iron absorption", "timing": "Separate by 2 hours"}
+    ],
+    "recommended_with": [
+      {"item": "Vitamin C rich foods (orange, lemon)", "why": "Enhances iron absorption", "timing": "Take together"}
+    ],
+    "warnings": ["May cause constipation; consult doctor if pregnant"],
+    "sources": ["NHS patient leaflet", "Textbook pharmacology"]
+  },
+  {
+    "id": "simvastatin",
+    "name": "Simvastatin",
+    "aliases": ["simvastatin", "statin"],
+    "avoid_foods": [
+      {"item": "Grapefruit / grapefruit juice", "why": "Increases blood levels of statins; risk of muscle toxicity", "timing": "Avoid completely"}
+    ],
+    "recommended_with": [],
+    "warnings": ["Report unexplained muscle pain or weakness immediately"],
+    "sources": ["FDA", "NHS leaflet"]
+  },
+  {
+    "id": "warfarin",
+    "name": "Warfarin",
+    "aliases": ["warfarin", "coumadin"],
+    "avoid_foods": [
+      {"item": "Large amounts of leafy green vegetables", "why": "High vitamin K can reduce effect of warfarin", "timing": "Keep vitamin K intake consistent"}
+    ],
+    "recommended_with": [],
+    "warnings": ["Monitor INR regularly; consult physician before diet changes"],
+    "sources": ["NHS", "Clinical guidelines"]
+  },
+  {
+    "id": "metronidazole",
+    "name": "Metronidazole",
+    "aliases": ["metronidazole", "flagyl"],
+    "avoid_foods": [
+      {"item": "Alcohol", "why": "Can cause severe nausea, flushing, palpitations (disulfiram-like reaction)", "timing": "Avoid during treatment and 48 hours after"}
+    ],
+    "recommended_with": [],
+    "warnings": ["Do not drink alcohol while on this medicine"],
+    "sources": ["Drug monograph"]
+  },
+  {
+    "id": "levothyroxine",
+    "name": "Levothyroxine",
+    "aliases": ["levothyroxine", "thyroxine", "levothyroid"],
+    "avoid_foods": [
+      {"item": "Milk / Calcium supplements", "why": "Calcium reduces absorption of levothyroxine", "timing": "Take 30-60 minutes before breakfast or 3-4 hours after calcium"}
+    ],
+    "recommended_with": [],
+    "warnings": ["Take consistently at same time each day"],
+    "sources": ["Endocrinology guidelines"]
+  }
+]
