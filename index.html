@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Food - Medicine Clash Checker</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Food — Medicine Clash Checker</h1>
+
+    <div class="search-wrapper">
+      <input id="searchBox" placeholder="Type medicine (e.g., iron, simvastatin)" autocomplete="off">
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <div id="suggestions" class="suggestions"></div>
+
+    <section id="result" class="card hidden">
+      <h2 id="drugTitle"></h2>
+      <div id="badge"></div>
+
+      <h3>Foods to avoid</h3>
+      <ul id="avoidList"></ul>
+
+      <h3>Recommended with</h3>
+      <ul id="withList"></ul>
+
+      <h3>Timing</h3>
+      <div id="timing"></div>
+
+      <h3>Warnings</h3>
+      <ul id="warnList"></ul>
+
+      <p class="sources" id="sources"></p>
+    </section>
+
+    <section id="notfound" class="card hidden">
+      <h2>Not found</h2>
+      <p id="nfText"></p>
+      <p>Try spelling variations or click a suggestion.</p>
+    </section>
+
+    <footer>
+      <p><a href="disclaimer.html">Disclaimer & Terms</a></p>
+      <p>Made by a vibecoder — zero budget. Improve this on GitHub.</p>
+    </footer>
+  </main>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
+
